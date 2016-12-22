@@ -1,0 +1,23 @@
+{
+  "name": "Audio recorder tester",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+  "content_scripts": [{
+        "matches": ["https://avocadoo.slack.com/messages/*"],
+        "js": [
+              "vendor/jquery.min.js",
+              "drag.js",
+              "capture.js"
+        ],
+        "css":["css/slack.css"],
+        "all_frames": false,
+        "run_at": "document_end"
+    }],
+  "permissions":["https://avocadoo.slack.com/*","downloads","webNavigation"],
+  "web_accessible_resources":["icons/*"]
+
+}

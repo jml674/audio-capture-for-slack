@@ -1,0 +1,8 @@
+.record-button-off {
+	content:url(chrome-extension://__MSG_@@extension_id__/icons/mic-off.png);
+
+}
+.record-button-on {
+	content:url(chrome-extension://__MSG_@@extension_id__/icons/mic-on.png);
+
+}
