@@ -1,5 +1,5 @@
 # audio-capture
-Demo of HTML5 audio capture in the context of slack.The code goes up to creating 3 buttons inside the slack message flow window.
+This code implements a chrome addon which demonstrates HTML5 audio capture in the context of slack.The code goes up to creating 3 buttons inside the slack message flow window.
 - a microphone button allows to start and stop the recording
 - a play button let's the user hear the audio capture
 - a download button loads the browser with the generated audio file. Additionnaly, the background script gets full information required to integrate the file into the slack message flow ie username, channel name and recorded data.
