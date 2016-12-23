@@ -11,3 +11,6 @@ This demo integrates audio capture feature inside a slack window BUT does not go
 
 The result has been privileged over programming style given the target is not a product.
 
+**Next steps**
+- it would be fairly easy to extend the code to cover for BOTH video and audio capture
+
